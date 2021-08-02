@@ -12,11 +12,11 @@
 <p><strong><em> rpc filter add rule layer=um actiontype=block add condition field=if_uuid matchtype=equal data=c681d488-d850-11d0-8c52-00c04fd90f7e add filter add rule layer=um actiontype=block add condition field=if_uuid matchtype=equal data=df1941c5-fe89-4e79-bf10-463657acf44d add filter quit</em></strong><br /><br /><br /><strong><u>2. Create Batch File</u></strong></p>
 <ul>
 <li>Open Notepad and add the following line&nbsp;<em><strong>netsh -f c:\EFSR\block_efsr.txt</strong></em></li>
-<li>Save the file a batch file. I saved it as xyz.bat under the directory C:\EFSR\ but can save under one of your choice.</li>
+<li>Save it as a batch file. For example, I saved it as xyz.bat under the directory C:\EFSR\ but you may save it under a directory of your choice.</li>
 </ul>
 <p><strong><u>3. Create Executable</u></strong></p>
 <p>In case you were not aware there is an easy way to do this without any 3<sup>rd</sup> party tools using a windows utility called iexpress.</p>
-<p>&nbsp;This will walk you through how to convert your script to an&nbsp;<em>.EXE</em></p>
+<p>&nbsp;The following steps will walk you through how to convert your script to an&nbsp;<em>.EXE</em></p>
 <ul>
 <li>Launch <strong>iexpress </strong>as Administrator (type iexpress in windows search bar and runs as Administrator)</li>
 <li>On the welcome screen keep the default selected "<em>Create new Self Extraction Directive File</em>" click Next</li>
