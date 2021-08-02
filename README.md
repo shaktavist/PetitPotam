@@ -7,7 +7,7 @@
 <p>The below are some instructions to create an executable that can be deployed via GPO.</p>
 <p><strong><u>1. Create Text file</u></strong></p>
 <ul>
-<li>Copy&nbsp;the contents into a file called 'block_efsr.txt' and save it on a location of your choice. I chose to save it in a newly created directory C:\EFSR\</li>
+<li>Copy&nbsp;the contents into a file called 'block_efsr.txt' and save it on a location of your choice. I chose to save it in a newly created directory named C:\EFSR\</li>
 </ul>
 <p><strong><em> rpc filter add rule layer=um actiontype=block add condition field=if_uuid matchtype=equal data=c681d488-d850-11d0-8c52-00c04fd90f7e add filter add rule layer=um actiontype=block add condition field=if_uuid matchtype=equal data=df1941c5-fe89-4e79-bf10-463657acf44d add filter quit</em></strong><br /><br /><br /><strong><u>2. Create Batch File</u></strong></p>
 <ul>
