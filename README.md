@@ -39,5 +39,8 @@
 <li>Run the command <strong><em>netsh rpc filter show filter</em></strong> and verify you don&rsquo;t have the filters with the condition value mentioned in the text file. Most likely you will only see the message <strong><em>Listing all RPC Filters</em></strong></li>
 <li>Go to your executable file that you created and run it as administrator</li>
 <li>Go back to command prompt and run the command <strong><em>netsh rpc filter show filter</em></strong></li>
-
-
+<li>You should now see the 2 new filters added</li>
+</ul>
+<p>To remove the filters you can just use the command <strong><em>netsh rpc filter delete filter filterkey=[key]</em></strong></p>
+<p>Example <strong><em>netsh rpc filter delete filter filterkey=b78c02cc-f3bb-11eb-b8d4-14f6d8e88018</em></strong></p>
+<p>Now that you have verified it works you can deploy via GPO.</p>
