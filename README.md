@@ -44,6 +44,6 @@
 <p>To remove the filters you can just use the command <strong><em>netsh rpc filter delete filter filterkey=[key]</em></strong></p>
 <p>Example <strong><em>netsh rpc filter delete filter filterkey=b78c02cc-f3bb-11eb-b8d4-14f6d8e88018</em></strong></p>
 <p>Now that you have verified it works you can deploy via GPO.
-<li>In order to run the executable via GPO you will need to deploy the files .bat file and text file to windows machines to match the location in your script. </l>
-<li>Following article shows how you can place the files via GPO. </l>
-http://woshub.com/copy-files-on-all-computers-group-policy/</p>
+<p>In order to run the executable via GPO you will need to deploy the files .bat file and text file to windows machines to match the location in your script.</p>
+<p>Following article shows how you can place the files via GPO.</p>
+<p>http://woshub.com/copy-files-on-all-computers-group-policy/</p>
